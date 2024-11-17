@@ -6,6 +6,7 @@ import Avatar from "./src/components/atoms/avatar";
 import InputContainer from "./src/components/atoms/inputContainer";
 import Card from "./src/components/atoms/card";
 import { DATA } from "./src/components/atoms/data";
+import { Text } from "react-native";
 
 export default function App() {
   return (
@@ -23,9 +24,10 @@ export default function App() {
 
 const Container = styled.SafeAreaView`
   flex: 1;
-  background-color: white;
+  background-color: red;
 `;
 const RowContainer = styled.View`
   width: 100%;
   padding-horizontal: 10px;
+  flex-direction: row;
 `;
